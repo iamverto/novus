@@ -21,7 +21,7 @@ def get_message(request):
             email_to_user = EmailMessage(subject=subject, body=body, to=[email])
             email_to_user.send()
 
-            email = EmailMessage(subject='You have one more message from site', body=message_to_admin, to=['novusorg.lpu@gmail.com'])
+            email = EmailMessage(subject='You have one more message from site', body=message_to_admin, to=['novusorg.lpu@gmail.com','priyanshukumar986@gmail.com'])
 
             email.send()
 
