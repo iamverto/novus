@@ -1,128 +1,222 @@
-function Particle( x, y, radius ) {
-    this.init( x, y, radius );
-}
-
-Particle.prototype = {
-
-    init: function( x, y, radius ) {
-
-        this.alive = true;
-
-        this.radius = radius || 10;
-        this.wander = 0.15;
-        this.theta = random( TWO_PI );
-        this.drag = 0.92;
-        this.color = '#fff';
-
-        this.x = x || 0.0;
-        this.y = y || 0.0;
-
-        this.vx = 0.0;
-        this.vy = 0.0;
+particlesJS("particles-js", {
+  "particles": {
+    "number": {
+      "value": 80,
+      "density": {
+        "enable": true,
+        "value_area": 800
+      }
     },
-
-    move: function() {
-
-        this.x += this.vx;
-        this.y += this.vy;
-
-        this.vx *= this.drag;
-        this.vy *= this.drag;
-
-        this.theta += random( -0.5, 0.5 ) * this.wander;
-        this.vx += sin( this.theta ) * 0.1;
-        this.vy += cos( this.theta ) * 0.1;
-
-        this.radius *= 0.96;
-        this.alive = this.radius > 0.5;
+    "color": {
+      "value": "#ca2374"
     },
-
-    draw: function( ctx ) {
-
-        ctx.beginPath();
-        ctx.arc( this.x, this.y, this.radius, 0, TWO_PI );
-        ctx.fillStyle = this.color;
-        ctx.fill();
+    "shape": {
+      "type": "circle",
+      "stroke": {
+        "width": 1,
+        "color": "#ca2374"
+      },
+      "polygon": {
+        "nb_sides": 5
+      },
+      "image": {
+        "src": "",
+        "width": 100,
+        "height": 100
+      }
+    },
+    "opacity": {
+      "value": 0.5,
+      "random": false,
+      "anim": {
+        "enable": false,
+        "speed": 5,
+        "opacity_min": 0.1,
+        "sync": false
+      }
+    },
+    "size": {
+      "value": 3,
+      "random": true,
+      "anim": {
+        "enable": false,
+        "speed": 80,
+        "size_min": 0.1,
+        "sync": false
+      }
+    },
+    "line_linked": {
+      "enable": true,
+      "distance": 150,
+      "color": "#ca2374",
+      "opacity": 0.4,
+      "width": 1
+    },
+    "move": {
+      "enable": true,
+      "speed": 4,
+      "direction": "none",
+      "random": false,
+      "straight": false,
+      "out_mode": "out",
+      "bounce": false,
+      "attract": {
+        "enable": false,
+        "rotateX": 600,
+        "rotateY": 1200
+      }
     }
-};
-
-// ----------------------------------------
-// Example
-// ----------------------------------------
-
-var MAX_PARTICLES = 280;
-var COLOURS = [ '#69D2E7', '#A7DBD8', '#E0E4CC', '#F38630', '#FA6900', '#FF4E50', '#F9D423' ];
-
-var particles = [];
-var pool = [];
-
-var demo = Sketch.create({
-    container: document.getElementById( 'container' )
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": true,
+        "mode": "repulse"
+      },
+      "onclick": {
+        "enable": true,
+        "mode": "push"
+      },
+      "resize": true
+    },
+    "modes": {
+      "grab": {
+        "distance": 140,
+        "line_linked": {
+          "opacity": 1
+        }
+      },
+      "bubble": {
+        "distance": 400,
+        "size": 40,
+        "duration": 2,
+        "opacity": 8,
+        "speed": 3
+      },
+      "repulse": {
+        "distance": 100,
+        "duration": 0.8
+      },
+      "push": {
+        "particles_nb": 4
+      },
+      "remove": {
+        "particles_nb": 2
+      }
+    }
+  },
+  "retina_detect": true
+});
+particlesJS("particles-js-2", {
+  "particles": {
+    "number": {
+      "value": 50,
+      "density": {
+        "enable": true,
+        "value_area": 800
+      }
+    },
+    "color": {
+      "value": "#fff"
+    },
+    "shape": {
+      "type": "circle",
+      "stroke": {
+        "width": 1,
+        "color": "#fff"
+      },
+      "polygon": {
+        "nb_sides": 5
+      },
+      "image": {
+        "src": "",
+        "width": 100,
+        "height": 100
+      }
+    },
+    "opacity": {
+      "value": 0.5,
+      "random": false,
+      "anim": {
+        "enable": false,
+        "speed": 1,
+        "opacity_min": 0.1,
+        "sync": false
+      }
+    },
+    "size": {
+      "value": 3,
+      "random": true,
+      "anim": {
+        "enable": false,
+        "speed": 40,
+        "size_min": 0.1,
+        "sync": false
+      }
+    },
+    "line_linked": {
+      "enable": true,
+      "distance": 150,
+      "color": "#fff",
+      "opacity": 0.4,
+      "width": 1
+    },
+    "move": {
+      "enable": true,
+      "speed": 4,
+      "direction": "none",
+      "random": false,
+      "straight": false,
+      "out_mode": "out",
+      "bounce": false,
+      "attract": {
+        "enable": false,
+        "rotateX": 600,
+        "rotateY": 1200
+      }
+    }
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": true,
+        "mode": "repulse"
+      },
+      "onclick": {
+        "enable": true,
+        "mode": "push"
+      },
+      "resize": true
+    },
+    "modes": {
+      "grab": {
+        "distance": 140,
+        "line_linked": {
+          "opacity": 1
+        }
+      },
+      "bubble": {
+        "distance": 400,
+        "size": 40,
+        "duration": 2,
+        "opacity": 8,
+        "speed": 3
+      },
+      "repulse": {
+        "distance": 100,
+        "duration": 0.8
+      },
+      "push": {
+        "particles_nb": 4
+      },
+      "remove": {
+        "particles_nb": 2
+      }
+    }
+  },
+  "retina_detect": true
 });
 
-demo.setup = function() {
-
-    // Set off some initial particles.
-    var i, x, y;
-
-    for ( i = 0; i < 20; i++ ) {
-        x = ( demo.width * 0.5 ) + random( -100, 100 );
-        y = ( demo.height * 0.5 ) + random( -100, 100 );
-        demo.spawn( x, y );
-    }
-};
-
-demo.spawn = function( x, y ) {
-
-    if ( particles.length >= MAX_PARTICLES )
-        pool.push( particles.shift() );
-
-    particle = pool.length ? pool.pop() : new Particle();
-    particle.init( x, y, random( 5, 40 ) );
-
-    particle.wander = random( 0.5, 2.0 );
-    particle.color = random( COLOURS );
-    particle.drag = random( 0.9, 0.99 );
-
-    theta = random( TWO_PI );
-    force = random( 2, 8 );
-
-    particle.vx = sin( theta ) * force;
-    particle.vy = cos( theta ) * force;
-
-    particles.push( particle );
-}
-
-demo.update = function() {
-
-    var i, particle;
-
-    for ( i = particles.length - 1; i >= 0; i-- ) {
-
-        particle = particles[i];
-
-        if ( particle.alive ) particle.move();
-        else pool.push( particles.splice( i, 1 )[0] );
-    }
-};
-
-demo.draw = function() {
-
-    demo.globalCompositeOperation  = 'lighter';
-
-    for ( var i = particles.length - 1; i >= 0; i-- ) {
-        particles[i].draw( demo );
-    }
-};
-
-demo.mousemove = function() {
-
-    var particle, theta, force, touch, max, i, j, n;
-
-    for ( i = 0, n = demo.touches.length; i < n; i++ ) {
-
-        touch = demo.touches[i], max = random( 1, 4 );
-        for ( j = 0; j < max; j++ ) demo.spawn( touch.x, touch.y );
-    }
-};
-
+requestAnimationFrame(update);

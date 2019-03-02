@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6a47b4dc-1387-47b5-9a9d-60c1df60c101" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/novusapp/static/js/contactform.js" beforeDir="false" afterPath="$PROJECT_DIR$/novusapp/static/js/contactform.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbox/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/chatbox/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/particles.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/particles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,33 +18,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chatbox/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="329" column="77" selection-start-line="329" selection-start-column="77" selection-end-line="329" selection-end-column="77" />
+            <state relative-caret-position="2254">
+              <caret line="102" selection-start-line="102" selection-end-line="102" />
               <folding>
-                <element signature="n#footer#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#9;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#0#35#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/landingpage.html">
+        <entry file="file://$PROJECT_DIR$/novusapp/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="523">
-              <caret line="381" column="7" lean-forward="true" selection-start-line="365" selection-start-column="4" selection-end-line="381" selection-end-column="7" />
+            <state relative-caret-position="36">
+              <caret line="125" selection-start-line="125" selection-end-line="125" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="125" column="190" selection-start-line="125" selection-start-column="190" selection-end-line="125" selection-end-column="190" />
+              <folding>
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/accounts/views.py">
+        <entry file="file://$PROJECT_DIR$/accounts/mailing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="115">
+              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,8 +66,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+            <state relative-caret-position="575">
+              <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -126,13 +141,10 @@
       <list>
         <option value="$PROJECT_DIR$/accounts/models.py" />
         <option value="$PROJECT_DIR$/novusapp/static/js/custom.js" />
-        <option value="$PROJECT_DIR$/accounts/mailing.py" />
         <option value="$PROJECT_DIR$/chatbox/urls.py" />
         <option value="$PROJECT_DIR$/templates/mail.html" />
         <option value="$PROJECT_DIR$/novusapp/static/css/index.css" />
-        <option value="$PROJECT_DIR$/chatbox/views.py" />
         <option value="$PROJECT_DIR$/templates/landingpage.html" />
-        <option value="$PROJECT_DIR$/novusapp/settings.py" />
         <option value="$PROJECT_DIR$/static/css/index.css" />
         <option value="$PROJECT_DIR$/static/css/style.css" />
         <option value="$PROJECT_DIR$/novusapp/views.py" />
@@ -142,14 +154,16 @@
         <option value="$PROJECT_DIR$/accounts/views.py" />
         <option value="$PROJECT_DIR$/novusapp/static/css/style.css" />
         <option value="$PROJECT_DIR$/novusapp/static/js/contactform.js" />
+        <option value="$PROJECT_DIR$/accounts/mailing.py" />
+        <option value="$PROJECT_DIR$/chatbox/views.py" />
+        <option value="$PROJECT_DIR$/novusapp/settings.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="823" />
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="27" />
-    <option name="width" value="777" />
+    <option name="width" value="869" />
     <option name="height" value="873" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -182,20 +196,6 @@
               <item name="novusapp" type="462c0819:PsiDirectoryNode" />
               <item name="novusapp" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="novusapp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="novusapp" type="462c0819:PsiDirectoryNode" />
-              <item name="novusapp" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="novusapp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="novusapp" type="462c0819:PsiDirectoryNode" />
-              <item name="novusapp" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="team" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="novusapp" type="b2602c69:ProjectViewProjectNode" />
@@ -314,7 +314,11 @@
       <workItem from="1551367429396" duration="2096000" />
       <workItem from="1551370219050" duration="595000" />
       <workItem from="1551379472527" duration="4491000" />
-      <workItem from="1551475251019" duration="1275000" />
+      <workItem from="1551475251019" duration="1925000" />
+      <workItem from="1551478864010" duration="1325000" />
+      <workItem from="1551494346060" duration="3369000" />
+      <workItem from="1551542209784" duration="4000" />
+      <workItem from="1551542680761" duration="4554000" />
     </task>
     <task id="LOCAL-00001" summary="first version complete">
       <created>1551030411199</created>
@@ -358,11 +362,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551405799312</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="requirements.txt added">
+      <created>1551476552768</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1551476552768</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53593000" />
+    <option name="totallyTimeSpent" value="63495000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -374,15 +385,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="823" y="27" width="777" height="873" extended-state="4" />
-    <editor active="true" />
+    <frame x="0" y="27" width="1600" height="873" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.23529412" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.4903475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32971507" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3582296" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3692946" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -391,7 +401,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32918397" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3679115" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.2786207" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -449,16 +459,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chatbox/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="23" column="160" selection-start-line="23" selection-start-column="160" selection-end-line="23" selection-end-column="160" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chatbox/models.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -506,13 +506,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/accounts/mailing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/mail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5950">
@@ -555,10 +548,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/novusapp/settings.py">
+    <entry file="file://$PROJECT_DIR$/novusapp/static/js/contactform.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2576">
-          <caret line="112" selection-start-line="112" selection-end-line="113" />
+        <state relative-caret-position="2185">
+          <caret line="95" column="5" lean-forward="true" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/landingpage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8763">
+          <caret line="381" column="7" selection-start-line="365" selection-start-column="4" selection-end-line="381" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chatbox/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2254">
+          <caret line="102" selection-start-line="102" selection-end-line="102" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/mailing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -597,41 +631,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/landingpage.html">
+    <entry file="file://$PROJECT_DIR$/novusapp/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="381" column="7" lean-forward="true" selection-start-line="365" selection-start-column="4" selection-end-line="381" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/accounts/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/novusapp/static/js/contactform.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2185">
-          <caret line="95" column="5" lean-forward="true" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
+        <state relative-caret-position="36">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="329" column="77" selection-start-line="329" selection-start-column="77" selection-end-line="329" selection-end-column="77" />
+        <state relative-caret-position="194">
+          <caret line="125" column="190" selection-start-line="125" selection-start-column="190" selection-end-line="125" selection-end-column="190" />
           <folding>
-            <element signature="n#footer#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#9;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
